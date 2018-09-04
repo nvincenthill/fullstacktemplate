@@ -8,7 +8,6 @@
     "node": ">=6.13.0"
   },
   "scripts": {
-    "db:seed": "node generate.js",
     "start": "nodemon server/index.js",
     "react-dev": "webpack -d --watch",
     "test": "jest"
