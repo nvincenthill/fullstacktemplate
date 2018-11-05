@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Applet from './components/Applet/Applet';
+import App from './components/App';
 
-// Component level styling
+// Global styling
 import './styles/main.css';
 
-ReactDOM.render(<Applet />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));

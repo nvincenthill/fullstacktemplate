@@ -36,7 +36,8 @@ p {
 
 .title {
   border-bottom: 4px solid var(--mainColor);
-  padding: 2rem;
+  padding: 1rem;
+  margin-bottom: 0;
 }
 
 /* Extra small devices (phones, 600px and down) */
