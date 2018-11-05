@@ -1,15 +1,14 @@
-import Enzyme from 'enzyme';
-// import sinon from 'sinon';
+import React from 'react';
+import Enzyme, { shallow, render, mount } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 
 import Applet from './Applet';
 
 Enzyme.configure({ adapter: new Adapter() });
 
-let wrapper;
-
 describe('Applet', () => {
-  it('should run a component level test', () => {
-    expect(true).toBe(true);
+  it('should render an Applet', () => {
+    const app = shallow(<Applet />);
+    expect(app).toMatchSnapshot();
   });
 });
