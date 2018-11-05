@@ -1,9 +1,12 @@
 const mongoose = require('mongoose');
 
-const dbURI = process.env.MONGODB_URI || 'mongodb://localhost/chess-pro';
+const dbURI = process.env.MONGODB_URI || 'mongodb://localhost:27017/exampledb';
 
 const options = { useNewUrlParser: true };
-mongoose.connect(dbURI, options);
+mongoose.connect(
+  dbURI,
+  options,
+);
 
 mongoose.connection.on('connected', () => {
   console.log(`Mongoose default connection open to ${dbURI}`);
@@ -19,7 +22,7 @@ mongoose.connection.on('disconnected', () => {
   console.log('Mongoose default connection disconnected');
 });
 
-// If the Node process ends, close the Mongoose connection
+// If Node process ends, close Mongoose connection
 process.on('SIGINT', () => {
   mongoose.connection.close(() => {
     console.log('Mongoose default connection disconnected through app termination');
