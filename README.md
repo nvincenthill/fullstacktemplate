@@ -1,18 +1,14 @@
-# Project Title
+# MERN-Stack Template
 
-One Paragraph of project description goes here
+This is a MERN-stack template and general full stack development environment for quick MVP ideas or technical challenges.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+All dependencies listing in `package.json`
 
 ### Installing
 
@@ -22,6 +18,20 @@ To install dependencies
 
 ```
 npm install
+```
+
+## Development
+
+To run server
+
+```
+npm start
+```
+
+To run webpack
+
+```
+npm run react-dev
 ```
 
 ## Running the tests
@@ -34,14 +44,18 @@ npm test
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Not currently deployed
 
 ## Built With
 
-- [MongoDB](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-- [React.js](https://maven.apache.org/) - Dependency Management
-- [Express](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-- [Node.js](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+- [MongoDB](https://www.mongodb.com/) - The database
+- [Mongoose](https://mongoosejs.com/) - The database management tool
+- [React.js](https://https://reactjs.org/) - The front-end MVC framework
+- [Express](https://expressjs.com/) - The server
+- [Node.js](https://nodejs.org/) - The back-end
+- [Jest](https://jestjs.io/) - The testing framework
+- [Enzyme](https://airbnb.io/enzyme/) - The testing utilities
+- [SuperTest](https://github.com/visionmedia/supertest/) - The http integration testing
 
 ## Contributing
 
@@ -53,7 +67,7 @@ We use [Git](https://git-scm.com/) for versioning. For the versions available, s
 
 ## Authors
 
-- **Nicholas Vincent-Hill** - _Initial work_ - [Nicholas Vincent-Hill](http://nickvh.tech/)
+- **Nicholas Vincent-Hill** - [Nicholas Vincent-Hill](http://nickvh.tech/)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who also participated in this project.
 
@@ -63,6 +77,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Thank you to the 99s for helping me put this together
