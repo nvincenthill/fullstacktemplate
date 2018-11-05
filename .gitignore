@@ -26,3 +26,9 @@ client/dist/
 
 # vscode
 .vscode
+
+# environmental variables
+.env
+
+# jest
+*__snapshots__
