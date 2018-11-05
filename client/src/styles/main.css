@@ -1,3 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i');
+
+/* Global CSS variables */
+:root {
+  --mainColor: rgb(0, 190, 162);
+  --bgColor: rgb(255, 255, 255);
+  --fontColor1: rgb(34, 34, 34);
+  --fontColor2: rgb(55, 54, 74);
+  --accentColor1: rgb(28, 57, 221);
+  --accentColor2: rgb(88, 128, 244);
+  --mainFont: Helvetica, sans-serif;
+  --secFont: Source Sans Pro;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
-  background: red;
+  background: var(--bgColor);
+  text-align: center;
+}
+
+h1 {
+  font-family: var(--mainFont);
+}
+
+p {
+  font-family: var(--secFont);
+}
+
+.title {
+  border-bottom: 4px solid var(--mainColor);
+  padding: 2rem;
 }
