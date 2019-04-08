@@ -63,9 +63,9 @@
     "jest": "^24.7.1",
     "jest-enzyme": "^7.0.2",
     "prettier": "1.16.4",
-    "sinon": "^6.1.4",
-    "style-loader": "^0.21.0",
-    "supertest": "^3.4.2",
+    "sinon": "^7.3.1",
+    "style-loader": "^0.23.1",
+    "supertest": "^4.0.2",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0"
   }
