@@ -40,7 +40,8 @@
     "npm": "^6.9.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-fontawesome": "^1.6.1"
+    "react-fontawesome": "^1.6.1",
+    "redux": "^4.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
