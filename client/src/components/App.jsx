@@ -1,4 +1,6 @@
 import React from 'react';
+import ChildComponent from './ChildComponent';
+
 
 class App extends React.Component {
   constructor(props) {
@@ -10,7 +12,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <p>hello</p>
+        <ChildComponent />
       </div>
     );
   }
